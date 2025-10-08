@@ -1,6 +1,6 @@
 body {
   font-family: Georgia, serif;
-  background-color: #e6f0ff; /* very bright blue */
+  background-color: #e6f0ff;
   color: #111;
   margin: 0;
   padding: 0;
@@ -10,7 +10,7 @@ body {
   width: 800px;
   margin: 50px auto;
   padding: 0 20px;
-  background-color: rgba(255, 255, 255, 0.9); /* light white box for readability */
+  background-color: rgba(255, 255, 255, 0.9);
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
@@ -20,6 +20,7 @@ body {
   height: 300px;
   float: left;
   margin-right: 30px;
+  margin-top: 20px;
   border-radius: 5px;
   object-fit: cover;
 }
@@ -41,7 +42,7 @@ a:hover {
 h1, h2 {
   font-family: Georgia, serif;
   margin-top: 1.2em;
-  color: #003366; /* darker blue for good contrast */
+  color: #003366;
 }
 
 p {
