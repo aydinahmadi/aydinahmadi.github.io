@@ -14,10 +14,12 @@ body {
 }
 
 #profile {
-  width: 180px;
+  width: 250px;
+  height: 300px;  /* fixed height */
   float: left;
   margin-right: 30px;
   border-radius: 5px;
+  object-fit: cover;  /* ensures image fits nicely */
 }
 
 #info {
