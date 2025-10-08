@@ -1,4 +1,3 @@
-/* Body with blurred background */
 body {
   font-family: Georgia, serif;
   color: #111;
@@ -8,30 +7,28 @@ body {
   /* Background image */
   background: url('imgs/background.jpg') no-repeat center center fixed;
   background-size: cover;
-
-  /* Ensure content is above blur */
   position: relative;
 }
 
-/* Blur overlay */
-#blur-overlay {
+/* Whitish transparent overlay */
+#white-overlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  backdrop-filter: blur(5px); /* Adjust blur amount */
-  z-index: -1; /* Behind all content */
+  background: rgba(255, 255, 255, 0.6); /* Adjust transparency (0.6 = 60%) */
+  z-index: -1; /* Behind content */
 }
 
 #container {
   width: 800px;
   margin: 50px auto;
   padding: 0 20px;
-  position: relative; /* Ensure above overlay */
-  background: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent to improve readability */
-  border-radius: 8px; /* Optional: rounded corners */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+  position: relative;
+  background: rgba(255, 255, 255, 0.85); /* slight white background for clarity */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 #profile {
