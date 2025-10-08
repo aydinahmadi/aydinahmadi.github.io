@@ -1,0 +1,58 @@
+
+body {
+  font-family: Georgia, serif;
+  background-color: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 800px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+#profile {
+  width: 180px;
+  float: left;
+  margin-right: 30px;
+  border-radius: 5px;
+}
+
+#info {
+  overflow: hidden;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2 {
+  font-family: Georgia, serif;
+  margin-top: 1.2em;
+}
+
+p {
+  line-height: 1.5;
+}
+
+@media (max-width: 850px) {
+  #container {
+    width: auto;
+    margin: 20px;
+  }
+  #profile {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  #info {
+    text-align: center;
+  }
+}
